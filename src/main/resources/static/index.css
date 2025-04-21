@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Saira:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
+
+body{
+    background-color: #eeecf9;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Saira";
+}
+
+h1{
+    display: flex;
+    align-items: center;
+}
+
+#side-bar
+{
+    background-color: #28332B;
+    color: white;
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+#side-bar a{
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    transition: 0.15s;
+    display: flex;
+    align-items: center;
+}
+
+#side-bar a i
+{
+    font-size: 15px;
+}
+
+.fa-solid
+{
+    padding-right: 8px ;
+    font-weight: 800;
+}
+
+#side-bar a:hover{
+    background-color: #47CE62;
+    padding-left: 30px;
+    transition: 0.1s;
+}
+
+#bar-logo{
+    font-size: 30px;
+    margin-top: 15px;
+    padding-left: 30px;
+}
+
+#bar-logo strong{
+    display: flex;
+    align-items: center;
+}
+
+#logo2
+{
+    margin-top: 3px;
+    color: rgb(76, 187, 74);
+}
+
+#dashboard{
+
+}
+
+.long-card{
+    background-color: #cecece;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}
+
+#logo{
+    margin-top: 3px;
+    color: rgb(76, 187, 74);
+}
